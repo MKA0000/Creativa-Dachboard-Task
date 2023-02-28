@@ -3,15 +3,18 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Trainers from '../../component/trainers/trainers.component';
 import Trainees from '../../component/trainees/trainees.component';
 import Problems from '../../component/problems/problems.component';
+import  SearchIcon from '../../assets/iconmonstr-search-thin.svg';
 
 const Home = () => {
 
 
     return(
-        <> 
+        <div className='home'> 
             <div className='search-box'>
+                <div className='search-icon_container'>
+                    <img src={SearchIcon} alt="search-icon" />
+                </div>
                 <input type='search' placeholder='بحث'/>
-                {/* search icon here */}
             </div>
 
             <main className='elements_container'>
@@ -23,14 +26,14 @@ const Home = () => {
             </main>
 
             <aside className='sidebar'>
+                <h3>قوائم</h3>
                 <ul>
-                    <li>قوائم</li>
                     <li><Link to='/'>المدربين</Link></li>
                     <li><Link to='trianees'>المتدربين</Link></li>
                     <li><Link to='problems'>المشاكل</Link></li>
                 </ul>
             </aside>
-        </>
+        </div>
     )
 }
 
