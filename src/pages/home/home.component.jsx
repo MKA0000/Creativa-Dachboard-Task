@@ -5,6 +5,8 @@ import Trainees from '../../component/trainees/trainees.component';
 import Problems from '../../component/problems/problems.component';
 import  SearchIcon from '../../assets/iconmonstr-search-thin.svg';
 
+import Trainer from '../trainer/trainer.component';
+
 const Home = () => {
 
 
