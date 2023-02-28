@@ -1,4 +1,4 @@
-import './trainees.style.css';
+import './trainers.style.css';
 
 const Trainers = () => {
 
