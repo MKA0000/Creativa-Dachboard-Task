@@ -22,7 +22,7 @@ const Home = () => {
             <main className='elements_container'>
                 <Routes>
                     <Route path='/' element={<Trainers/>}/>
-                    <Route path='trianees' element={<Trainees/>}/>
+                    <Route path='trainees' element={<Trainees/>}/>
                     <Route path='problems' element={<Problems/>}/>
                 </Routes>
             </main>
@@ -31,7 +31,7 @@ const Home = () => {
                 <h3>قوائم</h3>
                 <ul>
                     <li><Link to='/'>المدربين</Link></li>
-                    <li><Link to='trianees'>المتدربين</Link></li>
+                    <li><Link to='trainees'>المتدربين</Link></li>
                     <li><Link to='problems'>المشاكل</Link></li>
                 </ul>
             </aside>

@@ -9,7 +9,6 @@ const Trainer = () => {
     const  trainer = TRAINER_LIST.filter(trainer => trainer.id === Number(id))[0]
     
     
-
     if(!trainer) {
         return(<h1>not found</h1>)
     }
