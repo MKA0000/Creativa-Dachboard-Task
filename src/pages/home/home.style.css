@@ -3,6 +3,7 @@
     height: 100%;
     padding: 2rem 4vw;
     max-width: 120rem;
+    margin: auto;
 
     display: grid;
     grid-template-columns: repeat(12,1fr);   
