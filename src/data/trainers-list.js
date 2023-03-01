@@ -3,6 +3,8 @@ export const TRAINER_LIST = [
         name: 'محمد خالد',
         specialization: 'تطوير واجهات مستخدم',
         rate: '10',
+        background: "https://37.media.tumblr.com/88cbce9265c55a70a753beb0d6ecc2cd/tumblr_n8gxzn78qH1st5lhmo1_1280.jpg",
+        image: "http://gravatar.com/avatar/288ce55a011c709f4e17aef7e3c86c64?s=200",
         id: 1
     },{
         name: 'محمد علي',

@@ -2,7 +2,7 @@ const PROBLEMS_LIST = [
     {
         owner: 'ياسين عبدالحكيم',
         date: '2020/3/2',
-        subject: 'دفع فلوص في مواد مستهلكه',
+        subject: 'دفع فلوس في مواد مستهلكه',
         description: '...',
         id: 1
     }, {
