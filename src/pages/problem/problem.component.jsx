@@ -11,7 +11,12 @@ const Problem = () => {
     
     return(
         <div className='center'>
-            <h1> {problem.owner} الخاصة ب {problem.subject} مشكلة</h1>
+            <h1> 
+                <span>مشكلة: {problem.subject}</span>
+                <br/>
+                <span>الخاصة ب {problem.owner} </span>
+            </h1>
+            <br/>
             <p>الصفحة تحت الانشاء</p>
         </div>
     )

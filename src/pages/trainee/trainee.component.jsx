@@ -15,7 +15,7 @@ const Trainee = () => {
 
     return(
         <div className='center'>
-            <h1>{trainee.name} البروفايل الخصاص ب</h1>
+            <h1>البروفايل الخصاص ب <span style={{color: 'green'}}>{trainee.name}</span> </h1>
             <p>تحت الانشاء ...</p>
         </div>
     )
