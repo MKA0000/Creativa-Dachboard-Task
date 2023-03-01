@@ -10,8 +10,9 @@ const Problem = () => {
     }
     
     return(
-        <div>
-            <h1>{problem.subject} Problem Description</h1>
+        <div className='center'>
+            <h1> {problem.owner} الخاصة ب {problem.subject} مشكلة</h1>
+            <p>الصفحة تحت الانشاء</p>
         </div>
     )
 }

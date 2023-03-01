@@ -14,8 +14,10 @@ const Trainee = () => {
     }
 
     return(
-        
-        <h1>{trainee.name} Profile</h1>
+        <div className='center'>
+            <h1>{trainee.name} البروفايل الخصاص ب</h1>
+            <p>تحت الانشاء ...</p>
+        </div>
     )
 }
 
